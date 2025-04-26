@@ -1,11 +1,14 @@
 {
-  "name": "traeprueba1",
+  "name": "weboro3",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://tricoma035.github.io/WebOro3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "chart.js": "^4.4.9",
