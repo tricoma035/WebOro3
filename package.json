@@ -1,0 +1,21 @@
+{
+  "name": "traeprueba1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-router-dom": "^7.5.2",
+    "styled-components": "^6.1.17"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
