@@ -1,20 +1,18 @@
 {
-  "name": "weboro3",
+  "name": "traeprueba1",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://tricoma035.github.io/WebOro3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
     "chart.js": "^4.4.9",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.5.2",
     "styled-components": "^6.1.17"
   },
